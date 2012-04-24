@@ -1,0 +1,142 @@
+/*
+ * Style sheet for everbody, jz
+ */
+body {
+background-color: #C0C0C0;
+padding-left: 1%;
+}
+
+img {
+    vertical-align: middle;
+    height: 100%;
+}
+div.headerbar{
+	background-color: #2D2D2D;
+	width: 99.7%;
+	height: 7.5%;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+}
+div.left{
+	background-color: #D8D8D8;
+	float: left;
+	padding: 0px 0px 0px 14px;
+   	width: 19%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+div.content {
+	float: left;
+	padding: 0px 0px 0px 0px;
+	width: 79%;
+	height: 70%
+	background-color: #D8D8D8;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+div.maincontent{
+	float: left;
+	margin: 0px 0px .5% .5%;
+	padding: .5% .5% .5% .5%;
+	width: 98.5%;
+	background-color: #D8D8D8;
+	height: 50%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+div.main{
+	float: left;
+	margin: 0px 0px 0px 1%;
+	padding: .5% .5% .5% .5%;
+	width: 100%;
+	height: 30%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+div.feeder{
+	float: left;
+	background-color: #D8D8D8;
+	margin: 0px 0px 0px 1%;
+	padding: .5% .5% .5% .5%;
+	width: 31.4%;
+	height: 30%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+div.bottom {
+  float: right;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+
+img.small {
+  float: left;
+  width: 3.3343%;
+  height: 9%;
+}
+div.imagebump {
+  float: left;
+  padding-bottom:.25%;
+  padding-top:.25%;
+}
+/*
+ * spare stolen thats easy to fill in after here.
+ */
+tt.example {
+    color: maroon;
+    margin-left: 1em;
+}
+pre {
+    color: maroon;
+    margin-left: 1em;
+}
+div.dtd-fragment {
+    width: 100%;
+    border: none;
+    background-color: #eee;
+}
+pre.dtd-fragment {
+    margin-left: 0;
+}
+pre.dtd {
+    color: black;
+    margin-left: 0;
+}
+div.illegal-example {
+    width: 100%;
+    color: red;
+    border: solid red;
+}
+div.illegal-example p {
+    color: black;
+}
+div.deprecated-example {
+    width: 100%;
+    color: red;
+    border: solid rgb(255,165,0); /* orange */
+}
+div.deprecated-example p {
+    color: black;
+}
+div.note {
+    color: green;
+    margin-left: 1em;
+}
+p.note {
+    color: green;
+    margin-left: 1em;
+}
+ul.toc {
+    list-style-type: none;
+}
+
+a.normref { 
+    color : red;
+}	
+
+a.informref {
+    color : green;
+}	
+
+DIV.subtoc {padding: 1em; border: solid thin; margin: 1em 0;
